@@ -1,110 +1,47 @@
-/* .login_mainContainer {
+.login_mainContainer {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-  }
-  
-  .form_login {
+}
+
+.form_login {
     width: 300px;
     padding: 20px;
     background-color: #ffffff;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .login {
+}
+
+.login {
     display: block;
     text-align: center;
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 20px;
-  }
-  
-  .login_Email,
-  .login_password {
-    margin-bottom: 15px;
-  }
-  
-  .lable_email,
-  .lable_password {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-  }
-  
-  .email,
-  .password {
-    width: 100%;
-    padding: 10px;
-    border-radius: 3px;
-    border: 1px solid #ccc;
-  }
-  
-  input[type="button"] {
-    width: 100%;
-    padding: 10px;
-    margin-top: 10px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-  }
-  
-  #login_error {
-    display: block;
-    text-align: center;
-    margin-top: 10px;
-    color: red;
-  }
-   */
+}
 
-
-   .login_mainContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  .form_login {
-    width: 300px;
-    padding: 20px;
-    background-color: #ffffff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .login {
-    display: block;
-    text-align: center;
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-  
-  .login_Email,
-  .login_password {
+.login_Email,
+.login_password {
     margin-bottom: 10px;
-  }
-  
-  .lable_email,
-  .lable_password {
+}
+
+.lable_email,
+.lable_password {
     display: block;
     font-weight: bold;
     margin-bottom: 5px;
-  }
-  
-  .email,
-  .password {
+}
+
+.email,
+.password {
     width: 100%;
     padding: 10px;
     border-radius: 3px;
     border: 1px solid #ccc;
-  }
-  
-  button {
+}
+
+button {
     width: 100%;
     padding: 10px;
     border-radius: 3px;
@@ -113,12 +50,11 @@
     color: white;
     cursor: pointer;
     margin-top: 10px;
-  }
-  
-  #login_error {
+}
+
+#login_error {
     display: block;
     text-align: center;
     color: red;
     margin-top: 10px;
-  }
-  
+}
