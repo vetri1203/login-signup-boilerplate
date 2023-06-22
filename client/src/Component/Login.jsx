@@ -11,6 +11,7 @@ function Login() {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
 
+
     // collect data  from user using useState property
     const emailHandle = (e) => {
         setEmail(e.target.value);
@@ -84,7 +85,7 @@ function Login() {
                         <label htmlFor="password" id='lable_password' className='lable_password'>Password :</label>
                         <input type="password" id='password' onChange={passHandle} className='password' value={password} placeholder='                   Enter the Password*' />
                     </div>
-                    <button type='submit'>LOGIN</button>
+                    <button type='submit' className='user_loginbtn'>LOGIN</button>
                     <span id='login_error'></span>
                 </form>
 
