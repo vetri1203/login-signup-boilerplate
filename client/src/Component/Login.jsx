@@ -46,8 +46,9 @@ function Login() {
 
 
             if (validatePassword(password)) {
-                alert("secusess");
+                alert("login Completed..!");
                 Navigate('/');
+                
             }
             else {
                 document.getElementById('login_error').innerHTML = "password must atleast 8 characterts";
